@@ -44,7 +44,7 @@ class SecondPage extends StatelessWidget {
   }
   Widget _crearInput1() {
     return Container(
-      padding: EdgeInsets.all(14),
+      padding: EdgeInsets.all(10),
       child: TextFormField(
         decoration: InputDecoration(
           labelText: 'Nombre Completo',
@@ -55,7 +55,7 @@ class SecondPage extends StatelessWidget {
   }
    Widget _crearInput3() {
     return Container(
-      padding: EdgeInsets.all(14),
+      padding: EdgeInsets.all(10),
       child: TextFormField(
         
         decoration: InputDecoration(
@@ -68,7 +68,7 @@ class SecondPage extends StatelessWidget {
   }
   Widget _crearInput2() {
     return Container(
-      padding: EdgeInsets.all(14),
+      padding: EdgeInsets.all(10),
       child: TextFormField(
         obscureText: true,
         decoration: InputDecoration(
