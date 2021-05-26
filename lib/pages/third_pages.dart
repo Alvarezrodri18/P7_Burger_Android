@@ -32,7 +32,7 @@ class ThirdPage extends StatelessWidget {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Colors.blue[50],
+                Colors.blue[100],
                 Colors.blue[900],
               ],
             )
