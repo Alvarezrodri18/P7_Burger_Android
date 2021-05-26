@@ -63,6 +63,7 @@ class SecondPage extends StatelessWidget {
         obscureText: true,
         decoration: InputDecoration(
           labelText: 'Password',
+          icon: Icon(Icons.https, color: Colors.indigo[400],),
           hintText: 'Password'
         ),
       ),
