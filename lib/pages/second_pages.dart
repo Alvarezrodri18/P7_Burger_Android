@@ -93,10 +93,7 @@ class SecondPage extends StatelessWidget {
                 image: NetworkImage("https://cdn.dribbble.com/users/41854/screenshots/1121005/burger-d.gif"),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text('Burger Sencilla'),
-            )
+            
           ],
         ),
       ),
