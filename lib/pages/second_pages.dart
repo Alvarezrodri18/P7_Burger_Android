@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:alvarez/pages/third_pages.dart';
 
 class SecondPage extends StatelessWidget {
   
@@ -75,6 +74,30 @@ class SecondPage extends StatelessWidget {
         decoration: InputDecoration(
           labelText: 'Password',
           hintText: 'Password'
+        ),
+      ),
+    );
+  }
+
+  Widget _crearCard1() {
+    return Card(
+      elevation: 5,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: Container(
+        child: Column(
+          children: <Widget>[
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              child: FadeInImage(
+                placeholder: AssetImage('assets/burger.gif'),
+                image: NetworkImage("https://cdn.dribbble.com/users/41854/screenshots/1121005/burger-d.gif"),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Burger Sencilla'),
+            )
+          ],
         ),
       ),
     );
