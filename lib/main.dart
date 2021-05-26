@@ -49,7 +49,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.format_align_center, color: Colors.purpleAccent, size: 30.0), //icon
             title: Text('Registrarse')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.fastfood, color: Colors.orangeAccent, size: 30.0), //icon
+            icon: Icon(Icons.fastfood, color: Colors.indigoAccent, size: 30.0), //icon
             title: Text('Pedidos')), //
       ]), // bottom
     ); //Fin de scaffold
