@@ -6,7 +6,15 @@ class ThirdPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Carrito'),
-        
+        flexibleSpace: Container ( 
+              decoration: BoxDecoration ( 
+                gradient: LinearGradient ( 
+                  begin: Alignment.bottomRight,
+                  end: Alignment.bottomLeft,
+                  colors: [Colors.cyan, Colors.blue, Colors.indigo], 
+                ), 
+              ), 
+            ),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
