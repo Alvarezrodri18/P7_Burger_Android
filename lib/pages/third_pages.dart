@@ -21,7 +21,7 @@ class ThirdPage extends StatelessWidget {
     );
   }
 
-  Widget _crearCard1() {
+  Widget _crearCard2() {
     return Card(
       elevation: 5,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -32,8 +32,8 @@ class ThirdPage extends StatelessWidget {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Colors.orange[400],
-                Colors.deepOrange[900],
+                Colors.blue[50],
+                Colors.blue[900],
               ],
             )
             ),
@@ -57,7 +57,7 @@ class ThirdPage extends StatelessWidget {
     );
   }
 
-  Widget _crearCard2() {
+  Widget _crearCard1() {
     return Card(
       elevation: 5,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
