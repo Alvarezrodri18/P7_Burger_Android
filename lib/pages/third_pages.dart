@@ -6,6 +6,7 @@ class ThirdPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Cards'),
+        
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
@@ -33,7 +34,7 @@ class ThirdPage extends StatelessWidget {
               end: Alignment.bottomLeft,
               colors: [
                 Colors.blue[100],
-                Colors.blue[900],
+                Colors.blue[800],
               ],
             )
             ),
@@ -41,14 +42,14 @@ class ThirdPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Text(
-              'Consumo NVIDIA',
+              'BURGER FOOD',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 20,
             ),
             Text(
-              'Según NVIDIA esta tarjeta gráfica tiene un consumo medio de 320 vatios, por lo que recomienda instalarla en un PC que tenga una fuente de alimentación con una capacidad de entrega de potencia teórica de al menos 750 vatios.',
+              'Nuestra Burger Sencilla lleva una carne de res a la parrilla, preparada con tomates, lechuga recién cortada, mayonesa, pepinillos y cebollas en rodajas, sobre un pan suave con ajonjolí. ¡Pídela en COMBO con papas a la francesa y refresco frío!',
               style: TextStyle(color: Colors.white),
             )
           ],
@@ -73,7 +74,7 @@ class ThirdPage extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Soy una card con imagen'),
+              child: Text('Burger Sencilla'),
             )
           ],
         ),
