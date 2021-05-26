@@ -50,7 +50,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
             title: Text('Registrarse')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.fastfood, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('Carrito')), //
+            title: Text('Pedidos')), //
       ]), // bottom
     ); //Fin de scaffold
   } //Fin widget build
