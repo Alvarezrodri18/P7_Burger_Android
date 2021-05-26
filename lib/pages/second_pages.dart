@@ -22,7 +22,7 @@ class SecondPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               _crearCard1(),
-              SizedBox(height: 20,),
+              SizedBox(height: 10,),
               _crearInput1(),
               SizedBox(height: 20,),
                 _crearInput2(),
