@@ -24,9 +24,9 @@ class SecondPage extends StatelessWidget {
               _crearCard1(),
               SizedBox(height: 10,),
               _crearInput1(),
-              SizedBox(height: 10,),
+              SizedBox(height: 8,),
                 _crearInput2(),
-                   SizedBox(height: 10,),
+                   SizedBox(height: 8,),
                 _crearInput3(),
                 FlatButton(
                   onPressed: () {},
