@@ -5,7 +5,7 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Carrito'),
+        title: Text('Pedidos'),
         flexibleSpace: Container ( 
               decoration: BoxDecoration ( 
                 gradient: LinearGradient ( 
