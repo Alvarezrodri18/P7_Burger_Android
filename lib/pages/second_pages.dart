@@ -27,7 +27,7 @@ class SecondPage extends StatelessWidget {
               SizedBox(height: 4,),
                 _crearInput2(),
                    SizedBox(height: 4,),
-                _crearInput3(),
+                
                 FlatButton(
                   onPressed: () {},
                   color: Colors.indigo,
@@ -42,18 +42,8 @@ class SecondPage extends StatelessWidget {
     );
     
   }
-  Widget _crearInput1() {
-    return Container(
-      padding: EdgeInsets.all(10),
-      child: TextFormField(
-        decoration: InputDecoration(
-          labelText: 'Nombre Completo',
-          hintText: 'Nombre'
-        ),
-      ),
-    );
-  }
-   Widget _crearInput3() {
+  
+   Widget _crearInput1() {
     return Container(
       padding: EdgeInsets.all(10),
       child: TextFormField(
