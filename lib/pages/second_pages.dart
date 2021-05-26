@@ -87,7 +87,8 @@ class SecondPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             ClipRRect(
-              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20), 
+              bottomLeft: Radius.circular(20), bottomRight: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/burger.gif'),
                 image: NetworkImage("https://cdn.dribbble.com/users/41854/screenshots/1121005/burger-d.gif"),
