@@ -58,7 +58,7 @@ class SecondPage extends StatelessWidget {
         
         decoration: InputDecoration(
           labelText: 'Email',
-          icon: Icon(Icons.email),
+          icon: Icon(Icons.email, color: Colors.indigo[400],),
           hintText: 'Email'
         ),
       ),
