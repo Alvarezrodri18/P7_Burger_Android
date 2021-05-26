@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:alvarez/pages/third_pages.dart';
 
 class SecondPage extends StatelessWidget {
   
@@ -21,6 +22,8 @@ class SecondPage extends StatelessWidget {
         child: Form(
           child: Column(
             children: <Widget>[
+              _crearCard1(),
+              SizedBox(height: 20,),
               _crearInput1(),
               SizedBox(height: 20,),
                 _crearInput2(),
