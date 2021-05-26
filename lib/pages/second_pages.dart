@@ -22,11 +22,11 @@ class SecondPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               _crearCard1(),
-              SizedBox(height: 8,),
+              SizedBox(height: 10,),
               _crearInput1(),
-              SizedBox(height: 4,),
+              SizedBox(height: 10,),
                 _crearInput2(),
-                   SizedBox(height: 4,),
+                   SizedBox(height: 10,),
                 
                 FlatButton(
                   onPressed: () {},
